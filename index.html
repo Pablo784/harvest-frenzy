@@ -1758,41 +1758,41 @@
     setInterval(forceDisableRemixGameOverOverlay, 400);
 
     // Menu music audio element
-    const menuMusicAudio = new Audio('https://lqy3lriiybxcejon.public.blob.vercel-storage.com/555ae7e4-3375-4dc8-a9a9-3396b8c7df9a/farm_ambience_game_music-zzmDncZiCb-KlGwQfiQ74Rkaw47DKfFEVk41E0vkN.mp3?AOHD');
+    const menuMusicAudio = new Audio('sounds/farm_ambience.mp3');
     menuMusicAudio.loop = true;
     menuMusicAudio.volume = 0.4;
 
     // Wrong match audio element (new sound)
-    const wrongMatchAudio = new Audio('https://lqy3lriiybxcejon.public.blob.vercel-storage.com/555ae7e4-3375-4dc8-a9a9-3396b8c7df9a/wrong-match-MTMv55UraY-8GiJZGgeg6trGW8vlCeBKiNPsWacZw.mp3?AFYR');
+    const wrongMatchAudio = new Audio('sounds/wrong_match.mp3');
     wrongMatchAudio.volume = 0.6;
 
     // Correct match audio element (unique farm sound for gameplay)
-    const correctMatchAudio = new Audio('https://lqy3lriiybxcejon.public.blob.vercel-storage.com/555ae7e4-3375-4dc8-a9a9-3396b8c7df9a/correct_match-7dSmdV9IGZ-mWgE5g1K6Xv8Jn7PyqDQ5H7x8C0sxt.mp3?CxvL');
+    const correctMatchAudio = new Audio('sounds/correct_match.mp3');
     correctMatchAudio.volume = 0.6;
     correctMatchAudio.preload = 'auto';
 
     // Card flip sound (game-wide)
-    const cardFlipAudio = new Audio('https://lqy3lriiybxcejon.public.blob.vercel-storage.com/555ae7e4-3375-4dc8-a9a9-3396b8c7df9a/card_flip-XJ8YFqmPmm-muUJkmOBCoOC4HgONaaIzRZf9Al3pi.mp3?vld8');
+    const cardFlipAudio = new Audio('sounds/card_flip.mp3');
     cardFlipAudio.volume = 0.6;
 
     // Level start sound
-    const levelStartAudio = new Audio('https://lqy3lriiybxcejon.public.blob.vercel-storage.com/555ae7e4-3375-4dc8-a9a9-3396b8c7df9a/level_start-JC5Yfyvim3-ulahlXdKo3PEAhVqTny6bvrWDqW1RX.mp3?uI32');
+    const levelStartAudio = new Audio('sounds/level_start.mp3');
     levelStartAudio.volume = 0.6;
 
     // Combo sound audio element
-    const comboAudio = new Audio('https://lqy3lriiybxcejon.public.blob.vercel-storage.com/555ae7e4-3375-4dc8-a9a9-3396b8c7df9a/combo_sound-gSLoRhRRjm-x2TEANch2BaNzMXetDgAhmi5w1HdIt.mp3?68xh');
+    const comboAudio = new Audio('sounds/combo_sound.mp3');
     comboAudio.volume = 0.65;
 
     // Timer warning audio element (when timer is running out)
-    const timerWarningAudio = new Audio('https://lqy3lriiybxcejon.public.blob.vercel-storage.com/555ae7e4-3375-4dc8-a9a9-3396b8c7df9a/timer_about_to_end-zpbjopgWv7-SLBUR6ltjTHeEcphoA5XPHeNZvM6bJ.mp3?BPqk');
+    const timerWarningAudio = new Audio('sounds/timer_about_to_end.mp3');
     timerWarningAudio.volume = 0.5;
 
     // Game over audio element (when player loses)
-    const gameOverAudio = new Audio('https://lqy3lriiybxcejon.public.blob.vercel-storage.com/555ae7e4-3375-4dc8-a9a9-3396b8c7df9a/game_over-ZavlHVcDmZ-ynRB7EzL3lnR5szQCAEWhbiWGSoCoS.mp3?vNd5');
+    const gameOverAudio = new Audio('sounds/game_over.mp3');
     gameOverAudio.volume = 0.6;
 
     // Level complete audio element
-    const levelCompleteAudio = new Audio('https://lqy3lriiybxcejon.public.blob.vercel-storage.com/555ae7e4-3375-4dc8-a9a9-3396b8c7df9a/level_complete-f3PQbbgTOp-Q69PSFg5uJOqs4ma1szq17Gbe8Blnp.mp3?Bgqw');
+    const levelCompleteAudio = new Audio('sounds/level_complete.mp3');
     levelCompleteAudio.volume = 0.6;
     levelCompleteAudio.preload = 'auto';
     levelCompleteAudio.load();
